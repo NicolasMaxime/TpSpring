@@ -1,0 +1,22 @@
+<mat-card class="computer-card">
+  <mat-card-title-group>
+    <img mat-card-md-image src="">
+    <mat-card-title>
+      <span>{{ processor.name }}</span>
+    </mat-card-title>
+  </mat-card-title-group>
+  <mat-card-content>
+    <div class="contact-info">
+      Number of threads&nbsp;:&nbsp; <a><strong>{{processor.threads}}</strong></a>
+    </div>
+    <div class="contact-info">
+      Number of Core&nbsp;:&nbsp;<a><strong>{{processor.core}}</strong></a>
+    </div>
+    <div class="buttons-info">
+      <a mat-button title="Locate" href="javascript:void(0);">
+        <mat-icon>delete</mat-icon>
+      </a>
+    </div>
+  </mat-card-content>
+</mat-card>
+
