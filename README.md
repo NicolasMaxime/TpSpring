@@ -25,9 +25,10 @@ TP4 : git checkout dataJPA
 
 To run spring programs, use maven : mvn spring-boot:run
 
-To run angular front, go in directory then : 
- yarn install
+To run angular front, go in directory then :
 
- ng serve
+> yarn install
+
+> ng serve
 
 
