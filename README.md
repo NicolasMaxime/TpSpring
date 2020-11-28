@@ -23,6 +23,10 @@ TP3 : git checkout microservices
 TP4 : git checkout dataJPA
 
 
-To run the program, use maven : mvn spring-boot:run
+To run spring programs, use maven : mvn spring-boot:run
+
+To run angular front, go in directory then : 
+> yarn install
+> ng serve
 
 
