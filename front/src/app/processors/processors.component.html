@@ -1,1 +1,4 @@
-<app-processor></app-processor>
+<section>
+<app-processor *ngFor="let processor of processors" [processor]="processor" (delete)="delete($event)" (update)="update($event)"></app-processor>
+<button mat-fab class="addProc" (click)="add()"></button>
+</section>

@@ -22,7 +22,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c543309-55e6-4a55-8eee-7ae36a732c0f" name="Default Changelist" comment="" />
+    <list default="true" id="4c543309-55e6-4a55-8eee-7ae36a732c0f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../front/src/assets/PLUS.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/app/processors/processors.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/app/processors/processors.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/app/processors/processors.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/app/processors/processors.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/app/shared/cards/processor/processor.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/app/shared/cards/processor/processor.component.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,24 +59,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../webservices/tp2" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ProcessorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="processor" />
       <extension name="coverage">
@@ -98,6 +94,7 @@
       <option name="presentableId" value="Default" />
       <updated>1606394868180</updated>
       <workItem from="1606394869188" duration="1645000" />
+      <workItem from="1606476277604" duration="642000" />
     </task>
     <servers />
   </component>
@@ -114,12 +111,17 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2374" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606395450560">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2374" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1080/0.26.1920.1054@1920.0.1920.1080" timestamp="1606395450560" />
+    <state x="1486" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1606477277678">
+      <screen x="0" y="26" width="1920" height="1054" />
+    </state>
+    <state x="1486" y="311" width="424" height="491" key="FileChooserDialogImpl/1920.0.1920.1080/0.26.1920.1054@1920.0.1920.1080" timestamp="1606477277678" />
     <state width="1802" height="276" key="GridCell.Tab.0.bottom" timestamp="1606398658326">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>

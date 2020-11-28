@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
+@CrossOrigin
 public class ProcessorController {
     @Autowired
     private ProcessorDAO processorDAO;
@@ -28,9 +29,19 @@ public class ProcessorController {
         processorDAO.deleteById(id);
     }
 
-    @PostMapping(value = "/processors/")
-    public void addProcessor(@RequestBody Processor p){
+    @RequestMapping(value= "/processors", produces ="application/json", method=RequestMethod.POST)
+    public Processor addProcessor(@RequestBody Processor p){
         processorDAO.save(p);
+        return p;
     }
 
+    @RequestMapping(value= "/processors", produces ="application/json", method=RequestMethod.PUT)
+    public Processor updateProcessor(@RequestBody Processor p){
+        Processor tmp = processorDAO.findById(p.getId());
+        tmp.setNom(p.getNom());
+        tmp.setCore(p.getCore());
+        tmp.setThread(p.getThread());
+        processorDAO.save(tmp);
+        return p;
+    }
 }

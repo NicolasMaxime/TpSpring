@@ -1,5 +1,7 @@
 export interface Processor{
-  name: string;
+  id: number;
+  nom: string;
   core: number;
-  threads: number;
+  thread: number;
+  photo?: string;
 }

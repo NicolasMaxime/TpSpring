@@ -54,4 +54,8 @@ public class Processor {
     public void setThread(int thread) {
         this.thread = thread;
     }
+
+    public String toString(){
+        return id+" "+nom+" "+core+" "+thread;
+    }
 }
