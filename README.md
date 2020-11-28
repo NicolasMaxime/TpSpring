@@ -14,13 +14,17 @@ To downlaod the repository : git clone https://github.com/NicolasMaxime/TpSpring
 to select a branch : 
 
 
-TP1 : >git checkout GPSLab
+TP1 : 
+>git checkout GPSLab
 
-TP2 : >git checkout GPSLabSpring
+TP2 : 
+>git checkout GPSLabSpring
 
-TP3 : >git checkout microservices
+TP3 : 
+>git checkout microservices
 
-TP4 : >git checkout dataJPA
+TP4 : 
+>git checkout dataJPA
 
 
 To run spring programs, use maven : 
