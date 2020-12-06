@@ -1,0 +1,30 @@
+<form [formGroup]="form">
+  <mat-dialog-content>
+    <mat-form-field color="accent" appearance="standard" class="full-width">
+      <mat-label>Name : </mat-label>
+      <input matInput type="text" name="nom" formControlName="nom">
+      <mat-error *ngIf="form.get('nom').hasError('required')">
+        You must give a name.
+      </mat-error>
+    </mat-form-field>
+    <mat-form-field color="accent" appearance="standard" class="full-width">
+      <mat-label>Number of core : </mat-label>
+      <input matInput type="text" name="core" formControlName="core">
+      <mat-error *ngIf="form.get('core').hasError('required')">
+        You must give a number of core
+      </mat-error>
+    </mat-form-field>
+    <mat-form-field color="accent" appearance="standard" class="full-width">
+      <mat-label>Number of thread : </mat-label>
+      <input matInput type="text" name="thread" formControlName="thread">
+      <mat-error *ngIf="form.get('thread').hasError('required')">
+        You must enter a number of thread
+      </mat-error>
+    </mat-form-field>
+
+  </mat-dialog-content>
+  <mat-dialog-actions align="end">
+    <button mat-raised-button color="accent" type="button" (click)="onCancel()">Cancel</button>
+    <button mat-raised-button color="accent" type="submit" [disabled]="!form.valid" (click)="onSubmit(form.value)">Add</button>
+  </mat-dialog-actions>
+</form>
